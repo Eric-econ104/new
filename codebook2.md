@@ -1,8 +1,8 @@
-Here is a Markdown codebook for the `finally_parsed` dataset:
+Here is a Markdown codebook for the `彰化與全台婚姻情況對比` dataset:
 
 ---
 
-# **Codebook for `finally_parsed`**
+# **Codebook for `彰化與全台婚姻情況對比`**
 
 ## **Dataset Description**
 The `finally_parsed` dataset contains normalized marital status data for different regions, age groups, marital statuses, and genders. It includes the total population (`113年`) and the proportion (`比例`) of individuals in each marital status category relative to the total population for a given region and age group.
@@ -23,10 +23,10 @@ The `finally_parsed` dataset contains normalized marital status data for differe
 ---
 
 ## **Dataset Details**
-- **Source**: Derived from marital status data for Changhua County and national totals.
+- **Source**: Derived from marital status data for Changhua County and national totals.`重要性別統計資料庫`https://www.gender.ey.gov.tw/gecdb/Stat_Statistics_Field.aspx 
 - **Normalization**: The `比例` column is calculated by dividing the count of individuals in a specific marital status by the total count for the corresponding region and age group.
 - **Missing Data Handling**: Missing combinations of variables are filled with a proportion of `0` and a population count of `0` using the `complete()` function.
-- **Purpose**: This dataset is useful for analyzing marital status distributions across different regions, age groups, and genders.
+- **Purpose**: This dataset is useful for analyzing marital status distributions across different regions, age groups, and genders between 彰化和全台婚姻情況。
 
 ---
 
@@ -41,4 +41,4 @@ The `finally_parsed` dataset contains normalized marital status data for differe
 
 ---
 
-Let me know if you need further details or adjustments!
+
