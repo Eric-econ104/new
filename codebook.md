@@ -19,7 +19,8 @@ The `彰化與全國婚姻情況對比` dataset contains normalized marital stat
 ---
 
 ### **Dataset Description**
-- **Source**: The dataset is derived from a CSV file containing marital status data for Changhua County and national totals.
+- **Source**: The dataset is derived from '重要性別統計資料庫'https://www.gender.ey.gov.tw/gecdb/Stat_Statistics_Field.aspx
+containing marital status data for Changhua County and national totals.
 - **Normalization**: The `比例` column is calculated by dividing the count of individuals in a specific marital status by the total count for the corresponding region and age group.
 - **Missing Data Handling**: Missing combinations of variables are filled with a proportion of `0` using the `complete()` function.
 - **Purpose**: This dataset is useful for analyzing marital status distributions across different regions, age groups, and genders.
