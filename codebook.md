@@ -1,11 +1,8 @@
-Here is a codebook for the `data_normalized_pre_pivot` dataset:
 
----
-
-### **Codebook for `data_normalized_pre_pivot`**
+### **Codebook for `彰化與全國婚姻情況對比`**
 
 #### **Brief Description**
-The `data_normalized_pre_pivot` dataset contains normalized marital status data for different regions, age groups, marital statuses, and genders. The dataset calculates the proportion of individuals in each marital status category relative to the total population for a given region and age group. Missing combinations of variables are filled with a proportion of `0`.
+The `彰化與全國婚姻情況對比` dataset contains normalized marital status data for different regions, age groups, marital statuses, and genders. The dataset calculates the proportion of individuals in each marital status category relative to the total population for a given region and age group. Missing combinations of variables are filled with a proportion of `0`.
 
 ---
 
