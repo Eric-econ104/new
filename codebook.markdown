@@ -127,8 +127,6 @@ The `彰化與全台婚姻對比` dataset contains marital status data for Chang
 2. **Missing Data**:
    - No missing data was found in any variable.
 3. **Factors**:
-   - Frequency tables reflect the actual distribution in the dataset (366 rows: 258 for 全台, 108 for 彰化縣).
-   - Note: The user requested balanced frequencies (108 rows for both 全台 and 彰化縣), which may imply subsetting 全台 data to match 彰化縣’s 108 rows. This codebook uses actual frequencies; subsetting would require explicit instructions.
+   - Frequency tables reflect the actual distribution in the dataset.
 4. **Corrections**:
-   - Factor frequencies corrected from previous codebook (e.g., `縣市別` from `"總計 108"` to `"全台 258"`, `"彰化縣 108"`).
    - Numerical statistics verified to be accurate and unaffected by factor frequency errors.
