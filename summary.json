@@ -1,51 +1,101 @@
 {
-  "縣市別": [
-    {"Statistic": "彰化縣", "Value": 108},
-    {"Statistic": "總計", "Value": 108}
-  ],
-  "年齡別": [
-    {"Statistic": "100歲以上", "Value": 12},
-    {"Statistic": "15-19歲", "Value": 12},
-    {"Statistic": "20-24歲", "Value": 12},
-    {"Statistic": "25-29歲", "Value": 12},
-    {"Statistic": "30-34歲", "Value": 12},
-    {"Statistic": "35-39歲", "Value": 12},
-    {"Statistic": "40-44歲", "Value": 12},
-    {"Statistic": "45-49歲", "Value": 12},
-    {"Statistic": "50-54歲", "Value": 12},
-    {"Statistic": "55-59歲", "Value": 12},
-    {"Statistic": "60-64歲", "Value": 12},
-    {"Statistic": "65-69歲", "Value": 12},
-    {"Statistic": "70-74歲", "Value": 12},
-    {"Statistic": "75-79歲", "Value": 12},
-    {"Statistic": "80-84歲", "Value": 12},
-    {"Statistic": "85-89歲", "Value": 12},
-    {"Statistic": "90-94歲", "Value": 12},
-    {"Statistic": "95-99歲", "Value": 12}
-  ],
-  "婚姻狀況別": [
-    {"Statistic": "未婚", "Value": 72},
-    {"Statistic": "有偶", "Value": 72},
-    {"Statistic": "離婚", "Value": 72}
-  ],
-  "性別": [
-    {"Statistic": "女", "Value": 108},
-    {"Statistic": "男", "Value": 108}
-  ],
-  "比例": [
-    {"Statistic": "Mean", "Value": 0.166666666666667},
-    {"Statistic": "Median", "Value": 0.0739707442714029},
-    {"Statistic": "SD", "Value": 0.179428783614078},
-    {"Statistic": "Max", "Value": 0.701600829206495},
-    {"Statistic": "Min", "Value": 6.79965745493749e-05},
-    {"Statistic": "Range", "Value": [6.79965745493749e-05, 0.701600829206495]}
-  ],
-  "113年": [
-    {"Statistic": "Mean", "Value": 93550.0601851852},
-    {"Statistic": "Median", "Value": 11131.5},
-    {"Statistic": "SD", "Value": 173975.029078931},
-    {"Statistic": "Max", "Value": 683329},
-    {"Statistic": "Min", "Value": 1},
-    {"Statistic": "Range", "Value": [1, 683329]}
-  ]
+  "Summary of 彰化與全台婚姻對比": {
+    "Numerical Statistics": {
+      "人數占個別地區總人口數比": {
+        "Mean": 0.0094,
+        "Median": 0.0019,
+        "SD": 0.0140,
+        "Max": 0.0791,
+        "Min": 0.000001,
+        "Range": "[0.000001, 0.0791]"
+      },
+      "113年人數": {
+        "Mean": 66478.8,
+        "Median": 6647.5,
+        "SD": 135860.4,
+        "Max": 683329,
+        "Min": 1,
+        "Range": "[1, 683329]"
+      }
+    },
+    "Missing Data": [
+      {
+        "Variable": "縣市別",
+        "Total Missing": 0,
+        "Percentage Missing": "0%"
+      },
+      {
+        "Variable": "年齡別",
+        "Total Missing": 0,
+        "Percentage Missing": "0%"
+      },
+      {
+        "Variable": "婚姻狀況別",
+        "Total Missing": 0,
+        "Percentage Missing": "0%"
+      },
+      {
+        "Variable": "性別",
+        "Total Missing": 0,
+        "Percentage Missing": "0%"
+      },
+      {
+        "Variable": "人數占個別地區總人口數比",
+        "Total Missing": 0,
+        "Percentage Missing": "0%"
+      },
+      {
+        "Variable": "113年人數",
+        "Total Missing": 0,
+        "Percentage Missing": "0%"
+      }
+    ],
+    "Summary of Factors": {
+      "縣市別": {
+        "Class": "Factor",
+        "Frequency Table": {
+          "全台": 108,
+          "彰化縣": 108
+        }
+      },
+      "年齡別": {
+        "Class": "Factor",
+        "Frequency Table": {
+          "100歲以上": 12,
+          "15-19歲": 12,
+          "20-24歲": 12,
+          "25-29歲": 12,
+          "30-34歲": 12,
+          "35-39歲": 12,
+          "40-44歲": 12,
+          "45-49歲": 12,
+          "50-54歲": 12,
+          "55-59歲": 12,
+          "60-64歲": 12,
+          "65-69歲": 12,
+          "70-74歲": 12,
+          "75-79歲": 12,
+          "80-84歲": 12,
+          "85-89歲": 12,
+          "90-94歲": 12,
+          "95-99歲": 12
+        }
+      },
+      "婚姻狀況別": {
+        "Class": "Factor",
+        "Frequency Table": {
+          "未婚": 72,
+          "有偶": 72,
+          "離婚": 72
+        }
+      },
+      "性別": {
+        "Class": "Factor",
+        "Frequency Table": {
+          "女": 108,
+          "男": 108
+        }
+      }
+    }
+  }
 }
