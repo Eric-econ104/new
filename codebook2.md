@@ -64,7 +64,7 @@ The `finally_parsed` dataset contains normalized marital status data for differe
 | 113年        | Min           | 1                                           |
 | 113年        | Range         | 1, 683329                                   |
 
----
+----
 
 ## **2. Summary of Missing Data**
 
